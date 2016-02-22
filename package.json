@@ -1,6 +1,6 @@
 {
   "name": "has-chinese",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Check if text contains a Chinese word.",
   "license": "MIT",
   "repository": "egoist/has-chinese",
