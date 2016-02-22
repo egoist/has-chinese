@@ -4,37 +4,21 @@
 
 ## Install
 
-```
+```bash
 $ npm install --save has-chinese
 ```
 
 ## Usage
 
 ```js
-const hasChinese = require('has-chinese');
+const hasChinese = require('has-chinese')
 
-hasChinese('unicorns');
-//=> 'unicorns & rainbows'
+hasChinese('unicorns')
+//=> false
+
+hasChinese('我爱你 I love you')
+//=> true
 ```
-
-## API
-
-### hasChinese(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
 
 ## License
 
